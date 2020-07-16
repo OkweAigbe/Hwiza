@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UoBProject", "UoBProject\UoBProject.csproj", "{665D6D58-A649-448A-86C8-99976C1C53CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwizaApp.Droid", "HwizaApp.Droid\HwizaApp.Droid.csproj", "{3CB69202-200B-4C43-9C57-11B52BD7E418}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{665D6D58-A649-448A-86C8-99976C1C53CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665D6D58-A649-448A-86C8-99976C1C53CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665D6D58-A649-448A-86C8-99976C1C53CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665D6D58-A649-448A-86C8-99976C1C53CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB69202-200B-4C43-9C57-11B52BD7E418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB69202-200B-4C43-9C57-11B52BD7E418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB69202-200B-4C43-9C57-11B52BD7E418}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3CB69202-200B-4C43-9C57-11B52BD7E418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB69202-200B-4C43-9C57-11B52BD7E418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB69202-200B-4C43-9C57-11B52BD7E418}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46B4532C-CA88-447A-BF95-AB32F4B9B575}
+	EndGlobalSection
+EndGlobal
