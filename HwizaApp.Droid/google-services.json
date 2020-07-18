@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "459691520015",
+    "firebase_url": "https://hwiza-6419a.firebaseio.com",
+    "project_id": "hwiza-6419a",
+    "storage_bucket": "hwiza-6419a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459691520015:android:86c2d3f7c43c21c05f737a",
+        "android_client_info": {
+          "package_name": "com.hwizaapp.hwizaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459691520015-v12rptbm4s5k51g1k8prvq2uol9scc57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK8awtUG2Cy5kIq3w4Y5gNNS8oHvhJZ1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459691520015-v12rptbm4s5k51g1k8prvq2uol9scc57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

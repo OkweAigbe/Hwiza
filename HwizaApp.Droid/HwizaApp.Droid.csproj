@@ -59,12 +59,14 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Home.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="RegisterActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <GoogleServicesJson Include="google-services.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
@@ -97,6 +99,21 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
+    <PackageReference Include="Xamarin.Firebase.Auth">
+      <Version>60.1142.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Firebase.Database">
+      <Version>60.1142.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.GooglePlayServices.Base">
+      <Version>60.1142.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.GooglePlayServices.Basement">
+      <Version>60.1142.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.GooglePlayServices.Tasks">
+      <Version>60.1142.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\UoBProject\UoBProject.csproj">
@@ -106,6 +123,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Register.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Home.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
