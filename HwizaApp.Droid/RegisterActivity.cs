@@ -8,22 +8,30 @@ using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
+using Android.Support.V7.App;
 using Android.Widget;
 using Firebase;
 using Firebase.Auth;
 using Firebase.Database;
+using Android.Support.Design.Widget;
+using Android.Gms.Tasks;
+using Java.Lang;
+using HwizaApp.Droid.EventListener;
 
 namespace HwizaApp.Droid
 {
 	[Activity(Label = "RegisterActivity")]
-	public class RegisterActivity : Activity
+	public class RegisterActivity : Activity 
 
 	{
 		EditText emailEditText, passwordEditText, confirmPasswordEditText;
 		Button registerButton;
+		CoordinatorLayout rootView;
 
 		FirebaseAuth mAuth;
 		FirebaseDatabase database;
+
+		TaskCompletionListener TaskCompletionListener = new TaskCompletionListener();
 
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
@@ -32,18 +40,9 @@ namespace HwizaApp.Droid
 			// Create your application here
 			SetContentView(Resource.Layout.Register);
 
-			emailEditText = FindViewById<EditText>(Resource.Id.registerEmailEditText);
-			passwordEditText = FindViewById<EditText>(Resource.Id.registerPasswordEditText);
-			confirmPasswordEditText = FindViewById<EditText>(Resource.Id.confirmPasswordEditText);
-			registerButton = FindViewById<Button>(Resource.Id.registerUserButton);
-
-			registerButton.Click += RegisterButton_Click;
-
-			string email = Intent.GetStringExtra("email");
-			emailEditText.Text = email;
-
 			InitializeFirebase();
 			mAuth = FirebaseAuth.Instance;
+			ConnectControl();
 		}
 
 		void InitializeFirebase()
@@ -71,11 +70,66 @@ namespace HwizaApp.Droid
 
 		}
 
-		private void RegisterButton_Click(object sender, EventArgs e)
+		void ConnectControl()
 		{
-			mAuth.CreateUserWithEmailAndPassword(emailEditText.Text, passwordEditText.Text);
+			emailEditText = FindViewById<EditText>(Resource.Id.registerEmailEditText);
+			passwordEditText = FindViewById<EditText>(Resource.Id.registerPasswordEditText);
+			confirmPasswordEditText = FindViewById<EditText>(Resource.Id.confirmPasswordEditText);
+			rootView = (CoordinatorLayout)FindViewById(Resource.Id.rootView);
+			registerButton = FindViewById<Button>(Resource.Id.registerUserButton);
+
+			registerButton.Click += RegisterButton_Click;
+
+			string email = Intent.GetStringExtra("email");
+			emailEditText.Text = email;
+
 		}
 
-		
+
+		private void RegisterButton_Click(object sender, EventArgs e)
+		{
+			string email, password;
+
+			email = emailEditText.Text;
+			password = passwordEditText.Text;
+
+			if (!email.Contains("@"))
+			{
+				Snackbar.Make(rootView, "Please enter a valid email", Snackbar.LengthShort).Show();
+				return;
+			}
+			else if (password.Length < 5)
+			{
+				Snackbar.Make(rootView, "Password should be up to 5 characters", Snackbar.LengthShort).Show();
+				return;
+			}
+
+			RegisterUser(email, password);
+		}
+
+		void RegisterUser(string email, string password)
+		{
+			TaskCompletionListener.Success += TaskCompletionListener_Success;
+			TaskCompletionListener.Failure += TaskCompletionListener_Failure;
+			mAuth.CreateUserWithEmailAndPassword(email, password)
+				.AddOnSuccessListener(this, TaskCompletionListener)
+				.AddOnFailureListener(this, TaskCompletionListener);
+
+		}
+
+		private void TaskCompletionListener_Success(object sender, EventArgs e)
+		{
+			Snackbar.Make(rootView, "User Registration was Successful", Snackbar.LengthShort).Show();
+		}
+
+		private void TaskCompletionListener_Failure(object sender, EventArgs e)
+		{
+			Snackbar.Make(rootView, "User Registration Failed", Snackbar.LengthShort).Show();
+		}
+
+
+
+
+
 	}
 }

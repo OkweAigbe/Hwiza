@@ -1,3 +1,8 @@
+Google.Apis.Auth
+Google.Apis.Auth.PlatformServices
+Google.Apis.Core
+Google.Apis
+Newtonsoft.Json
 System.Runtime
 UoBProject
 Xamarin.Android.Arch.Core.Common

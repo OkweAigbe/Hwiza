@@ -3088,7 +3088,7 @@ containing a value of this type.
         public static int clip_horizontal=0x7f0b0055;
         public static int clip_vertical=0x7f0b0056;
         public static int collapseActionView=0x7f0b0041;
-        public static int confirmPasswordEditText=0x7f0b00b9;
+        public static int confirmPasswordEditText=0x7f0b00ba;
         public static int container=0x7f0b0098;
         public static int contentPanel=0x7f0b006d;
         public static int coordinator=0x7f0b0099;
@@ -3134,9 +3134,9 @@ containing a value of this type.
         public static int line3=0x7f0b0018;
         public static int listMode=0x7f0b0026;
         public static int list_item=0x7f0b0068;
-        public static int masked=0x7f0b00bd;
+        public static int masked=0x7f0b00be;
         public static int media_actions=0x7f0b00aa;
-        public static int message=0x7f0b00bb;
+        public static int message=0x7f0b00bc;
         public static int middle=0x7f0b0039;
         public static int mini=0x7f0b005a;
         public static int multiply=0x7f0b0030;
@@ -3155,12 +3155,13 @@ containing a value of this type.
         public static int progress_horizontal=0x7f0b0007;
         public static int radio=0x7f0b007c;
         public static int registerButton=0x7f0b0095;
-        public static int registerEmailEditText=0x7f0b00b7;
-        public static int registerPasswordEditText=0x7f0b00b8;
-        public static int registerUserButton=0x7f0b00ba;
+        public static int registerEmailEditText=0x7f0b00b8;
+        public static int registerPasswordEditText=0x7f0b00b9;
+        public static int registerUserButton=0x7f0b00bb;
         public static int right=0x7f0b0051;
         public static int right_icon=0x7f0b00b2;
         public static int right_side=0x7f0b00ae;
+        public static int rootView=0x7f0b00b7;
         public static int save_image_matrix=0x7f0b000c;
         public static int save_non_transition_alpha=0x7f0b000d;
         public static int save_scale_type=0x7f0b000e;
@@ -3225,7 +3226,7 @@ containing a value of this type.
         public static int up=0x7f0b0009;
         public static int useLogo=0x7f0b002e;
         public static int view_offset_helper=0x7f0b0016;
-        public static int visible=0x7f0b00bc;
+        public static int visible=0x7f0b00bd;
         public static int wide=0x7f0b0022;
         public static int withText=0x7f0b0044;
         public static int wrap_content=0x7f0b0036;

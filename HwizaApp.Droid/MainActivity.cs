@@ -42,7 +42,7 @@ namespace HwizaApp.Droid
 
 		private void SigninButton_Click(object sender, System.EventArgs e)
 		{
-			var intent = new Intent(this, typeof(Home));
+			StartActivity(typeof(Home));
 		}
 	}
 }

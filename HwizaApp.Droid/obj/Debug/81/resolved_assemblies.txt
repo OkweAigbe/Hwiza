@@ -1,7 +1,12 @@
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\HwizaApp.Droid.dll
+F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\Google.Apis.Auth.dll
+F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\Google.Apis.Auth.PlatformServices.dll
+F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\Google.Apis.Core.dll
+F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\Google.Apis.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\Java.Interop.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\Mono.Android.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\mscorlib.dll
+F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\Newtonsoft.Json.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.Core.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.Xml.dll
@@ -28,10 +33,6 @@ F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\Xamarin.Firebase.Databa
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Base.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Basement.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Tasks.dll
-F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.Net.Http.dll
-F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
-F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
-F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\Mono.Security.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\netstandard.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.Data.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.Numerics.dll
@@ -39,5 +40,9 @@ F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.Transactions.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.IO.Compression.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
+F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.Net.Http.dll
+F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
+F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.Web.Services.dll
 F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\System.Xml.Linq.dll
+F:\UoBProject\HwizaApp.Droid\obj\Debug\81\android\assets\Mono.Security.dll
