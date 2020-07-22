@@ -358,8 +358,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F040047
 			public const int buttonPanelSideLayout = 2130968647;
 			
-			// aapt resource value: 0x7F090351
-			public const int buttonSize = 2131297105;
+			// aapt resource value: 0x7F090362
+			public const int buttonSize = 2131297122;
 			
 			// aapt resource value: 0x7F040048
 			public const int buttonStyle = 2130968648;
@@ -405,6 +405,24 @@ namespace HwizaApp.Droid
 			
 			// aapt resource value: 0x1
 			public const int cameraZoom = 1;
+			
+			// aapt resource value: 0x7F040001
+			public const int cardBackgroundColor = 2130968577;
+			
+			// aapt resource value: 0x7F040002
+			public const int cardCornerRadius = 2130968578;
+			
+			// aapt resource value: 0x7F040003
+			public const int cardElevation = 2130968579;
+			
+			// aapt resource value: 0x7F040004
+			public const int cardMaxElevation = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int cardPreventCornerOverlap = 2130968581;
+			
+			// aapt resource value: 0x7F040006
+			public const int cardUseCompatPadding = 2130968582;
 			
 			// aapt resource value: 0x1
 			public const int castBackground = 1;
@@ -502,8 +520,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F04004D
 			public const int checkedTextViewStyle = 2130968653;
 			
-			// aapt resource value: 0x7F090350
-			public const int circleCrop = 2131297104;
+			// aapt resource value: 0x7F090361
+			public const int circleCrop = 2131297121;
 			
 			// aapt resource value: 0x7F04004E
 			public const int closeIcon = 2130968654;
@@ -553,8 +571,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F04005D
 			public const int colorPrimaryDark = 2130968669;
 			
-			// aapt resource value: 0x7F090352
-			public const int colorScheme = 2131297106;
+			// aapt resource value: 0x7F090363
+			public const int colorScheme = 2131297123;
 			
 			// aapt resource value: 0x7F04005E
 			public const int colorSwitchThumbNormal = 2130968670;
@@ -582,6 +600,21 @@ namespace HwizaApp.Droid
 			
 			// aapt resource value: 0x7F040066
 			public const int contentInsetStartWithNavigation = 2130968678;
+			
+			// aapt resource value: 0x7F040007
+			public const int contentPadding = 2130968583;
+			
+			// aapt resource value: 0x7F040008
+			public const int contentPaddingBottom = 2130968584;
+			
+			// aapt resource value: 0x7F040009
+			public const int contentPaddingLeft = 2130968585;
+			
+			// aapt resource value: 0x7F04000A
+			public const int contentPaddingRight = 2130968586;
+			
+			// aapt resource value: 0x7F04000B
+			public const int contentPaddingTop = 2130968587;
 			
 			// aapt resource value: 0x1
 			public const int contentProviderUri = 1;
@@ -811,11 +844,11 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0400A6
 			public const int iconTintMode = 2130968742;
 			
-			// aapt resource value: 0x7F090349
-			public const int imageAspectRatio = 2131297097;
+			// aapt resource value: 0x7F090360
+			public const int imageAspectRatio = 2131297120;
 			
-			// aapt resource value: 0x7F090348
-			public const int imageAspectRatioAdjust = 2131297096;
+			// aapt resource value: 0x7F090359
+			public const int imageAspectRatioAdjust = 2131297113;
 			
 			// aapt resource value: 0x7F0400A8
 			public const int imageButtonStyle = 2130968744;
@@ -1099,8 +1132,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x1
 			public const int schemaOrgType = 1;
 			
-			// aapt resource value: 0x7F090353
-			public const int scopeUris = 2131297107;
+			// aapt resource value: 0x7F090364
+			public const int scopeUris = 2131297124;
 			
 			// aapt resource value: 0x7F0400F1
 			public const int scrimAnimationDuration = 2130968817;
@@ -1656,6 +1689,18 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F060026
 			public const int button_material_light = 2131099686;
 			
+			// aapt resource value: 0x7F060001
+			public const int cardview_dark_background = 2131099649;
+			
+			// aapt resource value: 0x7F060002
+			public const int cardview_light_background = 2131099650;
+			
+			// aapt resource value: 0x7F060003
+			public const int cardview_shadow_end_color = 2131099651;
+			
+			// aapt resource value: 0x7F060004
+			public const int cardview_shadow_start_color = 2131099652;
+			
 			// aapt resource value: 0x1
 			public const int cast_expanded_controller_ad_container_white_stripe_color = 1;
 			
@@ -1698,38 +1743,38 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F020003
 			public const int colorPrimaryDark = 2130837507;
 			
-			// aapt resource value: 0x7F020101
-			public const int common_google_signin_btn_text_dark = 2130837761;
-			
-			// aapt resource value: 0x7F020104
-			public const int common_google_signin_btn_text_dark_default = 2130837764;
-			
 			// aapt resource value: 0x7F020105
-			public const int common_google_signin_btn_text_dark_disabled = 2130837765;
-			
-			// aapt resource value: 0x7F020106
-			public const int common_google_signin_btn_text_dark_focused = 2130837766;
-			
-			// aapt resource value: 0x7F020107
-			public const int common_google_signin_btn_text_dark_pressed = 2130837767;
-			
-			// aapt resource value: 0x7F020102
-			public const int common_google_signin_btn_text_light = 2130837762;
+			public const int common_google_signin_btn_text_dark = 2130837765;
 			
 			// aapt resource value: 0x7F020108
-			public const int common_google_signin_btn_text_light_default = 2130837768;
+			public const int common_google_signin_btn_text_dark_default = 2130837768;
 			
 			// aapt resource value: 0x7F020109
-			public const int common_google_signin_btn_text_light_disabled = 2130837769;
+			public const int common_google_signin_btn_text_dark_disabled = 2130837769;
 			
 			// aapt resource value: 0x7F020110
-			public const int common_google_signin_btn_text_light_focused = 2130837776;
+			public const int common_google_signin_btn_text_dark_focused = 2130837776;
 			
 			// aapt resource value: 0x7F020111
-			public const int common_google_signin_btn_text_light_pressed = 2130837777;
+			public const int common_google_signin_btn_text_dark_pressed = 2130837777;
 			
-			// aapt resource value: 0x7F020103
-			public const int common_google_signin_btn_tint = 2130837763;
+			// aapt resource value: 0x7F020106
+			public const int common_google_signin_btn_text_light = 2130837766;
+			
+			// aapt resource value: 0x7F020112
+			public const int common_google_signin_btn_text_light_default = 2130837778;
+			
+			// aapt resource value: 0x7F020113
+			public const int common_google_signin_btn_text_light_disabled = 2130837779;
+			
+			// aapt resource value: 0x7F020114
+			public const int common_google_signin_btn_text_light_focused = 2130837780;
+			
+			// aapt resource value: 0x7F020115
+			public const int common_google_signin_btn_text_light_pressed = 2130837781;
+			
+			// aapt resource value: 0x7F020107
+			public const int common_google_signin_btn_tint = 2130837767;
 			
 			// aapt resource value: 0x7F060027
 			public const int design_bottom_navigation_shadow_color = 2131099687;
@@ -2196,6 +2241,15 @@ namespace HwizaApp.Droid
 			
 			// aapt resource value: 0x7F08004A
 			public const int abc_text_size_title_material_toolbar = 2131230794;
+			
+			// aapt resource value: 0x7F080001
+			public const int cardview_compat_inset_shadow = 2131230721;
+			
+			// aapt resource value: 0x7F080002
+			public const int cardview_default_elevation = 2131230722;
+			
+			// aapt resource value: 0x7F080003
+			public const int cardview_default_radius = 2131230723;
 			
 			// aapt resource value: 0x1
 			public const int cast_expanded_controller_ad_background_layout_height = 1;
@@ -2822,6 +2876,12 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F070004
 			public const int Analysis = 2131165188;
 			
+			// aapt resource value: 0x7F070005
+			public const int Ants = 2131165189;
+			
+			// aapt resource value: 0x7F070006
+			public const int Army = 2131165190;
+			
 			// aapt resource value: 0x7F090054
 			public const int avd_hide_password = 2131296340;
 			
@@ -2990,62 +3050,62 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x1
 			public const int cast_skip_ad_label_border = 1;
 			
-			// aapt resource value: 0x7F070111
-			public const int common_full_open_on_phone = 2131165457;
-			
-			// aapt resource value: 0x7F070118
-			public const int common_google_signin_btn_icon_dark = 2131165464;
-			
-			// aapt resource value: 0x7F070119
-			public const int common_google_signin_btn_icon_dark_focused = 2131165465;
-			
-			// aapt resource value: 0x7F070120
-			public const int common_google_signin_btn_icon_dark_normal = 2131165472;
-			
-			// aapt resource value: 0x7F070112
-			public const int common_google_signin_btn_icon_dark_normal_background = 2131165458;
-			
-			// aapt resource value: 0x7F070121
-			public const int common_google_signin_btn_icon_disabled = 2131165473;
-			
-			// aapt resource value: 0x7F070122
-			public const int common_google_signin_btn_icon_light = 2131165474;
+			// aapt resource value: 0x7F070116
+			public const int common_full_open_on_phone = 2131165462;
 			
 			// aapt resource value: 0x7F070123
-			public const int common_google_signin_btn_icon_light_focused = 2131165475;
+			public const int common_google_signin_btn_icon_dark = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int common_google_signin_btn_icon_light_normal = 2131165476;
-			
-			// aapt resource value: 0x7F070113
-			public const int common_google_signin_btn_icon_light_normal_background = 2131165459;
+			public const int common_google_signin_btn_icon_dark_focused = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int common_google_signin_btn_text_dark = 2131165477;
+			public const int common_google_signin_btn_icon_dark_normal = 2131165477;
+			
+			// aapt resource value: 0x7F070117
+			public const int common_google_signin_btn_icon_dark_normal_background = 2131165463;
 			
 			// aapt resource value: 0x7F070126
-			public const int common_google_signin_btn_text_dark_focused = 2131165478;
+			public const int common_google_signin_btn_icon_disabled = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int common_google_signin_btn_text_dark_normal = 2131165479;
-			
-			// aapt resource value: 0x7F070114
-			public const int common_google_signin_btn_text_dark_normal_background = 2131165460;
+			public const int common_google_signin_btn_icon_light = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int common_google_signin_btn_text_disabled = 2131165480;
+			public const int common_google_signin_btn_icon_light_focused = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int common_google_signin_btn_text_light = 2131165481;
+			public const int common_google_signin_btn_icon_light_normal = 2131165481;
+			
+			// aapt resource value: 0x7F070118
+			public const int common_google_signin_btn_icon_light_normal_background = 2131165464;
 			
 			// aapt resource value: 0x7F070130
-			public const int common_google_signin_btn_text_light_focused = 2131165488;
+			public const int common_google_signin_btn_text_dark = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int common_google_signin_btn_text_light_normal = 2131165489;
+			public const int common_google_signin_btn_text_dark_focused = 2131165489;
 			
-			// aapt resource value: 0x7F070115
-			public const int common_google_signin_btn_text_light_normal_background = 2131165461;
+			// aapt resource value: 0x7F070132
+			public const int common_google_signin_btn_text_dark_normal = 2131165490;
+			
+			// aapt resource value: 0x7F070119
+			public const int common_google_signin_btn_text_dark_normal_background = 2131165465;
+			
+			// aapt resource value: 0x7F070133
+			public const int common_google_signin_btn_text_disabled = 2131165491;
+			
+			// aapt resource value: 0x7F070134
+			public const int common_google_signin_btn_text_light = 2131165492;
+			
+			// aapt resource value: 0x7F070135
+			public const int common_google_signin_btn_text_light_focused = 2131165493;
+			
+			// aapt resource value: 0x7F070136
+			public const int common_google_signin_btn_text_light_normal = 2131165494;
+			
+			// aapt resource value: 0x7F070120
+			public const int common_google_signin_btn_text_light_normal_background = 2131165472;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -3065,11 +3125,14 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F070116
-			public const int googleg_disabled_color_18 = 2131165462;
+			// aapt resource value: 0x7F070121
+			public const int googleg_disabled_color_18 = 2131165473;
 			
-			// aapt resource value: 0x7F070117
-			public const int googleg_standard_color_18 = 2131165463;
+			// aapt resource value: 0x7F070122
+			public const int googleg_standard_color_18 = 2131165474;
+			
+			// aapt resource value: 0x7F070009
+			public const int Home = 2131165193;
 			
 			// aapt resource value: 0x1
 			public const int ic_plusone_medium_off_client = 1;
@@ -3269,6 +3332,12 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
+			// aapt resource value: 0x7F070007
+			public const int Wasp = 2131165191;
+			
+			// aapt resource value: 0x7F070008
+			public const int Weaver = 2131165192;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -3345,11 +3414,11 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
-			// aapt resource value: 0x7F050158
-			public const int adjust_height = 2131034456;
+			// aapt resource value: 0x7F050165
+			public const int adjust_height = 2131034469;
 			
-			// aapt resource value: 0x7F050157
-			public const int adjust_width = 2131034455;
+			// aapt resource value: 0x7F050164
+			public const int adjust_width = 2131034468;
 			
 			// aapt resource value: 0x1
 			public const int ad_container = 1;
@@ -3366,6 +3435,9 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
+			// aapt resource value: 0x7F050017
+			public const int analysisLayout = 2131034135;
+			
 			// aapt resource value: 0x1
 			public const int android_pay = 1;
 			
@@ -3378,11 +3450,17 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x1
 			public const int android_pay_light_with_border = 1;
 			
-			// aapt resource value: 0x7F050155
-			public const int APP_NAME = 2131034453;
+			// aapt resource value: 0x7F050012
+			public const int antsLayout = 2131034130;
 			
-			// aapt resource value: 0x7F050156
-			public const int app_name = 2131034454;
+			// aapt resource value: 0x7F050162
+			public const int APP_NAME = 2131034466;
+			
+			// aapt resource value: 0x7F050163
+			public const int app_name = 2131034467;
+			
+			// aapt resource value: 0x7F050014
+			public const int armyLayout = 2131034132;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
@@ -3498,8 +3576,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x1
 			public const int classic = 1;
 			
-			// aapt resource value: 0x7F050009
-			public const int confirmPasswordEditText = 2131034121;
+			// aapt resource value: 0x7F050005
+			public const int confirmPasswordEditText = 2131034117;
 			
 			// aapt resource value: 0x1
 			public const int contact = 1;
@@ -3531,8 +3609,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F050162
-			public const int dark = 2131034466;
+			// aapt resource value: 0x7F050169
+			public const int dark = 2131034473;
 			
 			// aapt resource value: 0x1
 			public const int date = 1;
@@ -3576,8 +3654,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x1
 			public const int email = 1;
 			
-			// aapt resource value: 0x7F050002
-			public const int EmailEditText = 2131034114;
+			// aapt resource value: 0x7F050007
+			public const int EmailEditText = 2131034119;
 			
 			// aapt resource value: 0x7F0C002D
 			public const int end = 2131492909;
@@ -3642,8 +3720,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F050161
-			public const int icon_only = 2131034465;
+			// aapt resource value: 0x7F050168
+			public const int icon_only = 2131034472;
 			
 			// aapt resource value: 0x1
 			public const int icon_uri = 1;
@@ -3705,8 +3783,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x1
 			public const int license_list = 1;
 			
-			// aapt resource value: 0x7F050163
-			public const int light = 2131034467;
+			// aapt resource value: 0x7F050170
+			public const int light = 2131034480;
 			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
@@ -3750,6 +3828,9 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
 			
+			// aapt resource value: 0x7F050015
+			public const int monitorLayout = 2131034133;
+			
 			// aapt resource value: 0x1
 			public const int monochrome = 1;
 			
@@ -3792,8 +3873,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0C004F
 			public const int parent_matrix = 2131492943;
 			
-			// aapt resource value: 0x7F050003
-			public const int PasswordEditText = 2131034115;
+			// aapt resource value: 0x7F050008
+			public const int PasswordEditText = 2131034120;
 			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
@@ -3840,17 +3921,20 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
 			
-			// aapt resource value: 0x7F050005
-			public const int registerButton = 2131034117;
-			
-			// aapt resource value: 0x7F050007
-			public const int registerEmailEditText = 2131034119;
-			
-			// aapt resource value: 0x7F050008
-			public const int registerPasswordEditText = 2131034120;
-			
 			// aapt resource value: 0x7F050010
-			public const int registerUserButton = 2131034128;
+			public const int registerButton = 2131034128;
+			
+			// aapt resource value: 0x7F050003
+			public const int registerEmailEditText = 2131034115;
+			
+			// aapt resource value: 0x7F050004
+			public const int registerPasswordEditText = 2131034116;
+			
+			// aapt resource value: 0x7F050006
+			public const int registerUserButton = 2131034118;
+			
+			// aapt resource value: 0x7F050016
+			public const int respondLayout = 2131034134;
 			
 			// aapt resource value: 0x1
 			public const int rfc822 = 1;
@@ -3864,8 +3948,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0C0015
 			public const int right_side = 2131492885;
 			
-			// aapt resource value: 0x7F050006
-			public const int rootView = 2131034118;
+			// aapt resource value: 0x7F050002
+			public const int rootView = 2131034114;
 			
 			// aapt resource value: 0x1
 			public const int sandbox = 1;
@@ -3942,8 +4026,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
 			
-			// aapt resource value: 0x7F050004
-			public const int signinButton = 2131034116;
+			// aapt resource value: 0x7F050009
+			public const int signinButton = 2131034121;
 			
 			// aapt resource value: 0x1
 			public const int slide = 1;
@@ -3972,8 +4056,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0C0072
 			public const int src_over = 2131492978;
 			
-			// aapt resource value: 0x7F050159
-			public const int standard = 2131034457;
+			// aapt resource value: 0x7F050166
+			public const int standard = 2131034470;
 			
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
@@ -4104,8 +4188,14 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0C008F
 			public const int visible = 2131493007;
 			
-			// aapt resource value: 0x7F050160
-			public const int wide = 2131034464;
+			// aapt resource value: 0x7F050011
+			public const int waspLayout = 2131034129;
+			
+			// aapt resource value: 0x7F050013
+			public const int weaverLayout = 2131034131;
+			
+			// aapt resource value: 0x7F050167
+			public const int wide = 2131034471;
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
@@ -4250,8 +4340,11 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
-			// aapt resource value: 0x7F060002
-			public const int activity_main = 2131099650;
+			// aapt resource value: 0x7F060005
+			public const int activity_main = 2131099653;
+			
+			// aapt resource value: 0x7F060004
+			public const int Analysis = 2131099652;
 			
 			// aapt resource value: 0x1
 			public const int cast_expanded_controller_activity = 1;
@@ -4313,8 +4406,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F060004
-			public const int Home = 2131099652;
+			// aapt resource value: 0x7F060007
+			public const int Home = 2131099655;
 			
 			// aapt resource value: 0x1
 			public const int libraries_social_licenses_license = 1;
@@ -4327,6 +4420,12 @@ namespace HwizaApp.Droid
 			
 			// aapt resource value: 0x1
 			public const int license_menu_activity_no_licenses = 1;
+			
+			// aapt resource value: 0x7F060006
+			public const int ListOfInsects = 2131099654;
+			
+			// aapt resource value: 0x7F060003
+			public const int Map = 2131099651;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -4385,8 +4484,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x1
 			public const int place_autocomplete_progress = 1;
 			
-			// aapt resource value: 0x7F060003
-			public const int Register = 2131099651;
+			// aapt resource value: 0x7F060002
+			public const int Register = 2131099650;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -4853,6 +4952,9 @@ namespace HwizaApp.Droid
 			
 			// aapt resource value: 0x7F16000B
 			public const int Base_Animation_AppCompat_Tooltip = 2132148235;
+			
+			// aapt resource value: 0x7F160001
+			public const int Base_CardView = 2132148225;
 			
 			// aapt resource value: 0x7F16000C
 			public const int Base_DialogWindowTitleBackground_AppCompat = 2132148236;
@@ -5327,6 +5429,15 @@ namespace HwizaApp.Droid
 			
 			// aapt resource value: 0x7F1600A9
 			public const int Base_Widget_Design_TabLayout = 2132148393;
+			
+			// aapt resource value: 0x7F160002
+			public const int CardView = 2132148226;
+			
+			// aapt resource value: 0x7F160003
+			public const int CardView_Dark = 2132148227;
+			
+			// aapt resource value: 0x7F160004
+			public const int CardView_Light = 2132148228;
 			
 			// aapt resource value: 0x1
 			public const int CastExpandedController = 1;
@@ -6202,8 +6313,8 @@ namespace HwizaApp.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F080549
-			public const int AdsAttrs_adSize = 2131232073;
+			// aapt resource value: 0x7F080563
+			public const int AdsAttrs_adSize = 2131232099;
 			
 			// aapt resource value: 0x1
 			public const int AdsAttrs_adSizes = 1;
@@ -6906,6 +7017,60 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x7F080238
 			public const int ButtonBarLayout_allowStacking = 2131231288;
 			
+			public static int[] CardView = new int[] {
+					16843072,
+					16843071,
+					2130968577,
+					2130968578,
+					2130968579,
+					2130968580,
+					2130968581,
+					2130968582,
+					2130968583,
+					2130968584,
+					2130968585,
+					2130968586,
+					2130968587};
+			
+			// aapt resource value: 0x7F080541
+			public const int CardView_android_minHeight = 2131232065;
+			
+			// aapt resource value: 0x1
+			public const int CardView_android_minWidth = 1;
+			
+			// aapt resource value: 0x2
+			public const int CardView_cardBackgroundColor = 2;
+			
+			// aapt resource value: 0x3
+			public const int CardView_cardCornerRadius = 3;
+			
+			// aapt resource value: 0x4
+			public const int CardView_cardElevation = 4;
+			
+			// aapt resource value: 0x5
+			public const int CardView_cardMaxElevation = 5;
+			
+			// aapt resource value: 0x6
+			public const int CardView_cardPreventCornerOverlap = 6;
+			
+			// aapt resource value: 0x7
+			public const int CardView_cardUseCompatPadding = 7;
+			
+			// aapt resource value: 0x8
+			public const int CardView_contentPadding = 8;
+			
+			// aapt resource value: 0x9
+			public const int CardView_contentPaddingBottom = 9;
+			
+			// aapt resource value: 0x10
+			public const int CardView_contentPaddingLeft = 16;
+			
+			// aapt resource value: 0x11
+			public const int CardView_contentPaddingRight = 17;
+			
+			// aapt resource value: 0x12
+			public const int CardView_contentPaddingTop = 18;
+			
 			public static int[] CastExpandedController = new int[] {
 					1,
 					1,
@@ -6945,8 +7110,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x9
 			public const int CastExpandedController_castRewind30ButtonDrawable = 9;
 			
-			// aapt resource value: 0x7F080562
-			public const int CastExpandedController_castSeekBarProgressDrawable = 2131232098;
+			// aapt resource value: 0x7F080576
+			public const int CastExpandedController_castSeekBarProgressDrawable = 2131232118;
 			
 			// aapt resource value: 0x1
 			public const int CastExpandedController_castSeekBarThumbDrawable = 1;
@@ -6968,8 +7133,8 @@ namespace HwizaApp.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F080568
-			public const int CastIntroOverlay_castBackgroundColor = 2131232104;
+			// aapt resource value: 0x7F080582
+			public const int CastIntroOverlay_castBackgroundColor = 2131232130;
 			
 			// aapt resource value: 0x1
 			public const int CastIntroOverlay_castButtonBackgroundColor = 1;
@@ -7061,8 +7226,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x2
 			public const int CastMiniController_castSubtitleTextAppearance = 2;
 			
-			// aapt resource value: 0x7F080593
-			public const int CastMiniController_castTitleTextAppearance = 2131232147;
+			// aapt resource value: 0x7F080607
+			public const int CastMiniController_castTitleTextAppearance = 2131232263;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130968658,
@@ -7221,8 +7386,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x2
 			public const int Corpus_contentProviderUri = 2;
 			
-			// aapt resource value: 0x7F080596
-			public const int Corpus_corpusId = 2131232150;
+			// aapt resource value: 0x7F080610
+			public const int Corpus_corpusId = 2131232272;
 			
 			// aapt resource value: 0x1
 			public const int Corpus_corpusVersion = 1;
@@ -7250,8 +7415,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x2
 			public const int CustomCastTheme_castExpandedControllerStyle = 2;
 			
-			// aapt resource value: 0x7F080605
-			public const int CustomCastTheme_castIntroOverlayStyle = 2131232261;
+			// aapt resource value: 0x7F080619
+			public const int CustomCastTheme_castIntroOverlayStyle = 2131232281;
 			
 			// aapt resource value: 0x1
 			public const int CustomCastTheme_castMiniControllerStyle = 1;
@@ -7263,8 +7428,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x1
 			public const int CustomWalletTheme_toolbarTextColorStyle = 1;
 			
-			// aapt resource value: 0x7F080609
-			public const int CustomWalletTheme_windowTransitionStyle = 2131232265;
+			// aapt resource value: 0x7F080623
+			public const int CustomWalletTheme_windowTransitionStyle = 2131232291;
 			
 			public static int[] DesignTheme = new int[] {
 					2130968639,
@@ -7318,8 +7483,8 @@ namespace HwizaApp.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F080611
-			public const int FeatureParam_paramName = 2131232273;
+			// aapt resource value: 0x7F080625
+			public const int FeatureParam_paramName = 2131232293;
 			
 			// aapt resource value: 0x1
 			public const int FeatureParam_paramValue = 1;
@@ -7441,8 +7606,8 @@ namespace HwizaApp.Droid
 			public static int[] GlobalSearchCorpus = new int[] {
 					1};
 			
-			// aapt resource value: 0x7F080621
-			public const int GlobalSearchCorpus_allowShortcuts = 2131232289;
+			// aapt resource value: 0x7F080635
+			public const int GlobalSearchCorpus_allowShortcuts = 2131232309;
 			
 			public static int[] GlobalSearchSection = new int[] {
 					1,
@@ -7451,8 +7616,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x1
 			public const int GlobalSearchSection_sectionContent = 1;
 			
-			// aapt resource value: 0x7F080624
-			public const int GlobalSearchSection_sectionType = 2131232292;
+			// aapt resource value: 0x7F080638
+			public const int GlobalSearchSection_sectionType = 2131232312;
 			
 			// aapt resource value: 0x3
 			public const int GlobalSearch_defaultIntentAction = 3;
@@ -7463,8 +7628,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x4
 			public const int GlobalSearch_defaultIntentData = 4;
 			
-			// aapt resource value: 0x7F080617
-			public const int GlobalSearch_searchEnabled = 2131232279;
+			// aapt resource value: 0x7F080631
+			public const int GlobalSearch_searchEnabled = 2131232305;
 			
 			// aapt resource value: 0x1
 			public const int GlobalSearch_searchLabel = 1;
@@ -7480,8 +7645,8 @@ namespace HwizaApp.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F080626
-			public const int IMECorpus_inputEnabled = 2131232294;
+			// aapt resource value: 0x7F080640
+			public const int IMECorpus_inputEnabled = 2131232320;
 			
 			// aapt resource value: 0x1
 			public const int IMECorpus_sourceClass = 1;
@@ -7569,14 +7734,14 @@ namespace HwizaApp.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F080542
-			public const int LoadingImageView_circleCrop = 2131232066;
+			// aapt resource value: 0x7F080556
+			public const int LoadingImageView_circleCrop = 2131232086;
 			
-			// aapt resource value: 0x7F080541
-			public const int LoadingImageView_imageAspectRatio = 2131232065;
+			// aapt resource value: 0x7F080555
+			public const int LoadingImageView_imageAspectRatio = 2131232085;
 			
-			// aapt resource value: 0x7F080540
-			public const int LoadingImageView_imageAspectRatioAdjust = 2131232064;
+			// aapt resource value: 0x7F080554
+			public const int LoadingImageView_imageAspectRatioAdjust = 2131232084;
 			
 			public static int[] MapAttrs = new int[] {
 					1,
@@ -7642,8 +7807,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x6
 			public const int MapAttrs_liteMode = 6;
 			
-			// aapt resource value: 0x7F080646
-			public const int MapAttrs_mapType = 2131232326;
+			// aapt resource value: 0x7F080660
+			public const int MapAttrs_mapType = 2131232352;
 			
 			// aapt resource value: 0x7
 			public const int MapAttrs_uiCompass = 7;
@@ -8042,8 +8207,8 @@ namespace HwizaApp.Droid
 			public static int[] SectionFeature = new int[] {
 					1};
 			
-			// aapt resource value: 0x7F080665
-			public const int SectionFeature_featureType = 2131232357;
+			// aapt resource value: 0x7F080679
+			public const int SectionFeature_featureType = 2131232377;
 			
 			// aapt resource value: 0x4
 			public const int Section_indexPrefixes = 4;
@@ -8057,8 +8222,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x1
 			public const int Section_sectionFormat = 1;
 			
-			// aapt resource value: 0x7F080661
-			public const int Section_sectionId = 2131232353;
+			// aapt resource value: 0x7F080675
+			public const int Section_sectionId = 2131232373;
 			
 			// aapt resource value: 0x3
 			public const int Section_sectionWeight = 3;
@@ -8071,14 +8236,14 @@ namespace HwizaApp.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F080544
-			public const int SignInButton_buttonSize = 2131232068;
+			// aapt resource value: 0x7F080558
+			public const int SignInButton_buttonSize = 2131232088;
 			
-			// aapt resource value: 0x7F080545
-			public const int SignInButton_colorScheme = 2131232069;
+			// aapt resource value: 0x7F080559
+			public const int SignInButton_colorScheme = 2131232089;
 			
-			// aapt resource value: 0x7F080546
-			public const int SignInButton_scopeUris = 2131232070;
+			// aapt resource value: 0x7F080560
+			public const int SignInButton_scopeUris = 2131232096;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
@@ -8548,8 +8713,8 @@ namespace HwizaApp.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F080667
-			public const int WalletFragmentOptions_appTheme = 2131232359;
+			// aapt resource value: 0x7F080681
+			public const int WalletFragmentOptions_appTheme = 2131232385;
 			
 			// aapt resource value: 0x1
 			public const int WalletFragmentOptions_environment = 1;
@@ -8576,8 +8741,8 @@ namespace HwizaApp.Droid
 			// aapt resource value: 0x3
 			public const int WalletFragmentStyle_buyButtonAppearance = 3;
 			
-			// aapt resource value: 0x7F080673
-			public const int WalletFragmentStyle_buyButtonHeight = 2131232371;
+			// aapt resource value: 0x7F080687
+			public const int WalletFragmentStyle_buyButtonHeight = 2131232391;
 			
 			// aapt resource value: 0x2
 			public const int WalletFragmentStyle_buyButtonText = 2;
