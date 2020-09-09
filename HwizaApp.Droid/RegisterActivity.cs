@@ -10,15 +10,19 @@ using Android.Runtime;
 using Android.Views;
 using Android.Support.V7.App;
 using Android.Widget;
-using Firebase;
-using Firebase.Auth;
-using Firebase.Database;
+
 using Android.Support.Design.Widget;
 using Android.Gms.Tasks;
 using Java.Lang;
-using HwizaApp.Droid.EventListener;
 
-namespace HwizaApp.Droid
+using HwizaApp.Droid;
+using HwizaApp.Droid.Helper;
+using Android.Database.Sqlite;
+using Android.Database;
+using System.IO;
+using SQLite;
+
+namespace SQLiteDB
 {
 	[Activity(Label = "RegisterActivity")]
 	public class RegisterActivity : Activity 
@@ -26,12 +30,9 @@ namespace HwizaApp.Droid
 	{
 		EditText emailEditText, passwordEditText, confirmPasswordEditText;
 		Button registerButton;
+		TextView fromRegisterLogin;
 		CoordinatorLayout rootView;
-
-		FirebaseAuth mAuth;
-		FirebaseDatabase database;
-
-		TaskCompletionListener TaskCompletionListener = new TaskCompletionListener();
+		
 
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
@@ -39,97 +40,67 @@ namespace HwizaApp.Droid
 
 			// Create your application here
 			SetContentView(Resource.Layout.Register);
-
-			InitializeFirebase();
-			mAuth = FirebaseAuth.Instance;
-			ConnectControl();
-		}
-
-		void InitializeFirebase()
-		{
-			var app = FirebaseApp.InitializeApp(this);
-
-			if (app == null)
-			{
-				var options = new FirebaseOptions.Builder()
-
-					.SetApplicationId("hwiza-6419a")
-					.SetApiKey("AIzaSyAK8awtUG2Cy5kIq3w4Y5gNNS8oHvhJZ1k")
-					.SetDatabaseUrl("https://hwiza-6419a.firebaseio.com")
-					.SetStorageBucket("hwiza-6419a.appspot.com")
-					.Build();
-
-				app = FirebaseApp.InitializeApp(this, options);
-				database = FirebaseDatabase.GetInstance(app);
-			}
-			else
-			{
-				database = FirebaseDatabase.GetInstance(app);
-			}
-
+						
+			ConnectControl();	
+			
 
 		}
+
+		
 
 		void ConnectControl()
 		{
 			emailEditText = FindViewById<EditText>(Resource.Id.registerEmailEditText);
 			passwordEditText = FindViewById<EditText>(Resource.Id.registerPasswordEditText);
 			confirmPasswordEditText = FindViewById<EditText>(Resource.Id.confirmPasswordEditText);
+			fromRegisterLogin = FindViewById<TextView>(Resource.Id.fromRegisterLogin);
 			rootView = (CoordinatorLayout)FindViewById(Resource.Id.rootView);
 			registerButton = FindViewById<Button>(Resource.Id.registerUserButton);
 
-			registerButton.Click += RegisterButton_Click;
+			registerButton.Click += delegate
+			{
+				//path string for the databas file
+				string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "Hwiza.db");
+
+				//setup the db connection
+				var db = new SQLiteConnection(dbPath);
+
+				//setup a table
+				db.CreateTable<User>();
+
+				//store the object into table
+
+				User tbl = new User();
+				tbl.Email = emailEditText.Text;
+				tbl.Password = passwordEditText.Text;
+				db.Insert(tbl);
+				db.Close();
+				clear();
+				Toast.MakeText(this, "Data Store Successfully...,", ToastLength.Short).Show();
+
+				
+			};
+
+			fromRegisterLogin.Click += FromRegisterLogin_Click;
 
 			string email = Intent.GetStringExtra("email");
 			emailEditText.Text = email;
 
 		}
 
-
-		private void RegisterButton_Click(object sender, EventArgs e)
+		private void clear()
 		{
-			string email, password;
-
-			email = emailEditText.Text;
-			password = passwordEditText.Text;
-
-			if (!email.Contains("@"))
-			{
-				Snackbar.Make(rootView, "Please enter a valid email", Snackbar.LengthShort).Show();
-				return;
-			}
-			else if (password.Length < 5)
-			{
-				Snackbar.Make(rootView, "Password should be up to 5 characters", Snackbar.LengthShort).Show();
-				return;
-			}
-
-			RegisterUser(email, password);
+			emailEditText.Text = " ";
+			passwordEditText.Text = "";
+			confirmPasswordEditText.Text = "";
 		}
 
-		void RegisterUser(string email, string password)
+		
+
+		private void FromRegisterLogin_Click(object sender, EventArgs e)
 		{
-			TaskCompletionListener.Success += TaskCompletionListener_Success;
-			TaskCompletionListener.Failure += TaskCompletionListener_Failure;
-			mAuth.CreateUserWithEmailAndPassword(email, password)
-				.AddOnSuccessListener(this, TaskCompletionListener)
-				.AddOnFailureListener(this, TaskCompletionListener);
-
+			StartActivity(typeof(MainActivity));
 		}
-
-		private void TaskCompletionListener_Success(object sender, EventArgs e)
-		{
-			Snackbar.Make(rootView, "User Registration was Successful", Snackbar.LengthShort).Show();
-		}
-
-		private void TaskCompletionListener_Failure(object sender, EventArgs e)
-		{
-			Snackbar.Make(rootView, "User Registration Failed", Snackbar.LengthShort).Show();
-		}
-
-
-
-
 
 	}
 }

@@ -8,28 +8,51 @@
 	android:orientation="vertical"
 	android:minWidth="25px"
 	android:minHeight="25px"
-	android:layout_marginTop="100dp">
+	android:background="@drawable/HwizaBackground">
+	<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:layout_marginTop="250dp">
+
 	<EditText
 		android:inputType="textEmailAddress"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		
+		android:textColor="@color/textColor"
+		android:background="#ffffff"
 		android:id="@+id/EmailEditText"
-		android:hint="Email address" />
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:hint="Email address:" 
+		android:layout_margin="16dp"/>
 	<EditText
 		android:inputType="textPassword"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
+		android:textColor="@color/textColor"	
+		android:background="#ffffff"
 		android:id="@+id/PasswordEditText"
-		android:hint="Password" />
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:hint="Password:"
+		android:layout_margin="16dp"/>
 	<Button
 		android:text="Sign In"
-		android:layout_width="match_parent"
+		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:id="@+id/signinButton" />
+		android:id="@+id/signinButton"
+		android:layout_gravity="center"
+		android:layout_margin="10dp"/>
 	<Button
 		android:text="Register"
-		android:layout_width="match_parent"
+		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:id="@+id/registerButton" />
+		android:id="@+id/registerButton" 
+		android:layout_gravity="center"
+		/>
+
+	</LinearLayout>
+
+
 </LinearLayout>

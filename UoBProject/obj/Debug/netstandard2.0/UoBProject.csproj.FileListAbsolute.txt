@@ -1,3 +1,12 @@
+E:\UoBProject\UoBProject\bin\Debug\netstandard2.0\UoBProject.deps.json
+E:\UoBProject\UoBProject\bin\Debug\netstandard2.0\UoBProject.dll
+E:\UoBProject\UoBProject\bin\Debug\netstandard2.0\UoBProject.pdb
+E:\UoBProject\UoBProject\obj\Debug\netstandard2.0\UoBProject.csprojAssemblyReference.cache
+E:\UoBProject\UoBProject\obj\Debug\netstandard2.0\UoBProject.csproj.CoreCompileInputs.cache
+E:\UoBProject\UoBProject\obj\Debug\netstandard2.0\UoBProject.AssemblyInfoInputs.cache
+E:\UoBProject\UoBProject\obj\Debug\netstandard2.0\UoBProject.AssemblyInfo.cs
+E:\UoBProject\UoBProject\obj\Debug\netstandard2.0\UoBProject.dll
+E:\UoBProject\UoBProject\obj\Debug\netstandard2.0\UoBProject.pdb
 F:\UoBProject\UoBProject\bin\Debug\netstandard2.0\UoBProject.deps.json
 F:\UoBProject\UoBProject\bin\Debug\netstandard2.0\UoBProject.dll
 F:\UoBProject\UoBProject\bin\Debug\netstandard2.0\UoBProject.pdb

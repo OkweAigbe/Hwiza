@@ -15,6 +15,7 @@
 		android:layout_height="wrap_content"
 		android:minWidth="25px"
 		android:minHeight="25px"
+			android:layout_marginTop="120dp"
 		android:id="@+id/registerEmailEditText"
 		android:hint="Email Address" />
 	<EditText
@@ -29,12 +30,36 @@
 		android:layout_height="wrap_content"
 		android:id="@+id/confirmPasswordEditText"
 		android:hint="Confirm Password" />
+		
 	<Button
 		android:text="Register"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/registerUserButton" />
 
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"		
+		android:layout_marginTop="10dp">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="35dp"
+				android:paddingLeft="150dp"				
+				android:text="Click to login"
+				android:textSize="20dp"
+				android:layout_gravity="center"
+				android:id="@+id/fromRegisterLogin"/>
+	
+
 	</LinearLayout>
+
+
+	</LinearLayout>
+
+
+
 </android.support.design.widget.CoordinatorLayout>
 

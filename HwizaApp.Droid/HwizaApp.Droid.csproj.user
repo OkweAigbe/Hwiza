@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
-    <SelectedDevice>my_device</SelectedDevice>
+    <SelectedDevice>Motorola moto e%286%29 plus</SelectedDevice>
     <DefaultDevice>my_device</DefaultDevice>
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
